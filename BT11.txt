@@ -1,0 +1,39 @@
+Bài 1: Làm lại các bài ở BT10.txt
+
+Bài 2: Quản lý sàn chứng khoán nhỏ
+1. Lớp Trader - người buôn bán cổ phiếu 
+ - String TraderCode;
+ - String PIN (Personal Identification Number);
+ - String Address, Email, Tel,....
+
+2. Stock - Các mã cổ phiếu.
+ - String StockCode;
+ - String Info;// Thông tin về Cty 
+
+3. TradeOrder - Hoá đơn mua, bán cổ phiểu
+  - Integer OrderID; 
+  - String StockCode;
+  - String SellerID, BuyerID;
+  - Date date;
+
+4. TradeOrderDetail
+  - Integer OrderID;  
+  - Integer Amount;
+  - Float Price;
+
+Thực hiện:
+- Quản lý người mua, bán cổ phiểu sử dụng: TreeMap<String, Trader>
+- Quản lý các cổ phiếu sử dụng: HashMap<String, Stock>
+- Mỗi một mã cổ phiếu:
+  + Quản lý các lệnh đặt bán: sellOrder PriorityQueue<TradeOrder>
+      (with ascending price comparator)
+  + Quản lý các lệnh đặt mua: buyOrder PriorityQueue<TradeOrder>
+      (with descending price comparator)
+  + Khớp lệnh bằng các duyệt 2 hàng đợi trên;
+
+Bài 3: Thực hành các nội dung
+1. Giao diện chức năng - Functional Interfaces
+2. Biểu thức Lambda - Lambda Expressions
+3. Tham chiếu phương thức - Method References
+4. Lọc luồng dữ liệu - Stream Filter
+

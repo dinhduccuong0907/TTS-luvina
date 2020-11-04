@@ -1,0 +1,16 @@
+
+NHỚ: LÀM VÀ NỘP CÁC BÀI TẬP VỀ STREAM VÀ ĐỊNH THỨC CỦA BÀI TẬP 7
+
+Bài 1. Luyện tập cấu trúc dữ liệu danh sách LK, bổ sung thêm phương thức chèn để tạo một danh sách có thứ tự tăng dần
+
+Bài 2. Luyện tập cấu trúc dữ liệu cây nhị phân tìm kiếm, bổ sung các thao tác chèn, xoá trên cây nhị phân tìm kiếm bằng 2 cách: đệ quy, ko đệ quy.
+
+Bài 3.  ArrayList:
+ - Xây dựng một lớp Latop gồm các thông tin:(Brand(nhãn hiệu:Dell, HP,...), CPU, Ram, HDD, Display, Pin, Weight, Color).
+- Chèn 10 laptops khác nhau vào 1 ArrayList;
+- Thực hiện sắp xếp và tìm kiếm theo nhiều điều kiện khác nhau (Chú ý: khi tìm phải in ra tất cả các laptop thoả mãn điều kiện tìm kiếm)
+
+Bài 4. PriorityQueue: 
+- Xây dựng một lớp Sinhvien gồm các thông tin: Hoten, NgaySinh, Quequan, Ngành học, Điểm trung bình, Chứng chỉ tiếng Anh (A2, B1, B3, C1, C2);...
+- Chèn 10 sinh viên khác nhau vào 1 PriorityQueue;
+- Áp dụng các chế độ ưu tiên khác nhau và in ra hàng đợi tương ứng.
