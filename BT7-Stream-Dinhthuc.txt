@@ -1,0 +1,11 @@
+I. Tiếp tục hoàn thiện các bài thực hiện về luồng nhập/xuất và về JavaBeans
+II. Thực hành các bài sau
+Bài 1: Nhập dữ liệu ma trận từ file dạng text, dạng data, dạng object. 
+Tính giá trị định thức của ma trận, theo các trường hợp:
+1) Biến đổi cho dưới đường chéo chính về 0;
+2) Biến đổi cho trên đường chéo chính về 0;
+3) Biến đổi cho dưới đường chéo phụ về 0;
+4) Biến đổi cho trên đường chéo phụ về 0;
+Mỗi trường hợp làm 2 cách: dùng for, dùng while
+Bài 2: Đọc nội dung phần 1 của Lecture 5, thực hành tạo các lớp danh sách liên kết, ngăn xếp, hàng đợi, cây nhị phân tìm kiếm.
+

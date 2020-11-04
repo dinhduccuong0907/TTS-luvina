@@ -1,0 +1,27 @@
+ 
+Bài 1: Viết 1 chương trình thực hiện đọc nội dung 1 file văn bản sau đó in ra màn hình các thông tin sau
+a. Số lượng dòng.
+b. Số lượng kí tự.
+c. Số lượng từ.
+
+Bài 2:  Viết chương trình nhập vào tên một file nguồn và tên thư mục chứa file đích, hãy thực hiện
+a. Kiểm tra file nguồn có tồn tại không, nếu không tồn tại thoát khỏi chương trình.
+b. Nếu file nguồn đã tồn tại, kiểm tra thư mục đích đã tồn tại hay không, nếu chưa tồn tại, tạo mới thư mục này và copy file nguồn vào thư mục này.
+Yêu cầu: Sử dụng được cả 2 cách đọc file bằng In/Out Stream và Reader
+Bài 3: Cho 1 đối tượng user bao gồm các thông tin sau: username, age, address, score. Lập trình thực hiện:
+a. Hãy nhập một danh sách các user từ bàn phím và lưu danh sách user vào file.
+b. Đọc nội dung file vừa tạo, sắp xếp danh sách theo tên user và hiện thị ra màn hình.
+c. Tính tổng score của tất cả các user
+
+Yêu cầu: Sử dụng được cả ObjectIn/OutputStream 
+  Bài 4: Nhập vào file text (Unicode) Bangdiem.txt:
+Nguyễn Xuân Hoàng 10
+Hoàng Xuân Lượng 8
+Nguyễn Thúyddddd Hồng 9 
+Viết chương trinh đọc nội dung của Bangdiem.txt ghi sang file Bangdiem1.txt đồng thời in ra các từ dài nhất. 
+Bài 5: Cho một file chứa giá trị của các các phần tử của một ma trận, ví dụ:
+10 3 7
+4   5 9
+8   4 6
+Viết chương trình đọc ma trận từ file và tính giá trị định thức của ma trận đọc được.
+

@@ -1,0 +1,19 @@
+A. Mảng 1 chiều
+1) Sắp xếp các số lẻ tăng dần nhưng giá trị khác giữ nguyên vị trí
+2) Sắp xếp các số dương tăng dần, các số âm giữ nguyên vị trí
+3) Sắp xếp các số dương tăng dần, các số âm giảm dần.   
+4) Biến đổi mảng bằng cách thay giá trị max = giá trị min và ngược lại
+B) Mảng 2 chiều - ma trận
+0) Chấm điểm Multiple-Choice Test
+1) Tổng 2 ma trận 
+2) Tích 2 ma trận 
+3) Định thức của ma trận
+C) Xâu kí tự
+1) Cho một xâu kí tự chứa họ tên, có thể thừa một số dấu cách. Viết chương trình loại bỏ các dấu cách thừa. Ví dụ: "Nguyễn    Văn     A    "
+2) Cho một xâu kí tự họ tên. Viết chương trình tách riêng phần họ, đệm và tên.
+3) Cho xâu kí tự. Viết chương trình tìm tất cả các từ dài nhất trong xâu.
+4) Cho một mảng chứa N phần tử là họ tên của sinh viên. Viết chương trình đếm xem có bao nhiêu sinh viên tên Bình.
+5) Cho một mảng chứa N phần tử là họ tên của sinh viên. Hãy viết chương trình sắp xếp lại mảng theo thứ tự bảng chữ cái.
+
+
+ 

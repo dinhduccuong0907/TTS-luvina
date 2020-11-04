@@ -1,0 +1,55 @@
+Luyện tập HashSet, TreeSet.
+
+Bài 1:
+1. Tạo lớp Order gồm các thuộc tính sau - HOÁ ĐƠN
+  - int  IdOrder;// mã hoá đơn
+  - Date OrdDate;// ngày hoá đơn
+  - String CustomerID; // mã khách hàng
+Ví dụ:
+or1 = new Order (1,"06/8/2020", "Cus01")
+or2 = Order (2,"06/8/2020", "Cus02")
+
+2. Tạo lớp OrderDetail gồm các thuộc tính sau - CHI TIẾT HOÁ ĐƠN
+    - int  IdOrder; // mã hoá đơn
+    - int IdDetail;// mã hoá đơn chi tiết
+    - int ItemID;// mã hàng
+    - int Amount;// số lượng hàng
+    - float Price; //đơn giá
+Ví dụ:
+orDetail1 = new OrderDetail (1,1, 1, 10, 100);
+orDetail2 = new  OrderDetail (1, 2, 5, 7, 20);
+
+orDetail3 = new OrderDetail (2,3, 3, 10, 100);
+orDetail4 = new OrderDetail (2, 4, 7, 7, 20);
+
+3. Tạo lớp Purchase gồm các thuộc tính sau - NHẬP HÀNG
+  - int IdPurchase;// mã đơn nhập hàng
+  - Date purDate;// ngày nhập hàng
+  - String SupplierID ;// mã nhà cung cấp
+ 
+4. Tạo lớp PurchaseDetail gồm các thuộc tính sau
+    - int IdPurchase;
+    - int IdDetail;
+    - int ItemID;
+    - int  Amount;
+    - float Price;
+
+5.Tạo lớp Supplier  gồm các thuộc tính sau
+  - String IdSup;/ mã nhà cung cấp
+  - String Name;
+  - String  Address;
+  - String  Tel;
+
+Hãy xây dựng và chèn các hoá đơn vào các cấu trúc dữ liệu sau:
+1. TreeMap <Order, ArrayList<OrderDetail>>  
+2. HashMap <Order, ArrayList<OrderDetail>>  
+- Thực hành tìm kiếm hoá đơn theo mã khách hàng
+- Thực hành tìm kiếm hoá đơn theo ngày hoá đơn
+
+Hãy xây dựng và chèn đơn nhập hàng vào các cấu trúc dữ liệu sau:
+1. HashMap< Supplier ,TreeMap<Purchase, ArrayList<PurchaseDetail>>>
+- Thực hành tìm kiếm các đơn nhập hàng theo nhà cung cấp
+
+ Bài 2: Cho mảng A gồm các số nguyên. 
+1. Sắp xếp các phần tử thuộc đoạn: m đến n theo thứ tự giảm dần dùng vòng for
+2. Sắp xếp các phần tử thuộc đoạn: m đến n theo thứ tự giảm dần dùng vòng while
